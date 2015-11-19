@@ -3,19 +3,10 @@
   padding: 0;
 }
 
-body {
-  background: #5f8fbf;
-}
-
 .container {
-  width: 1500px;
+  width: 1200px;
   margin: 0 auto;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.header {
-  width: 1500;
-  margin: 20px auto;
+  overflow: hidden;
 }
 
 .header-menu {
@@ -23,21 +14,224 @@ body {
   height: 87px;
   width: 1500;
   margin: 0 auto;
-  border-radius: 5px 5px 0 0;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  font: bold 37px "PT sans";
+.menu {
+  float: right;
+  margin-top: 35px;
+  margin-right: 110px;
+}
+
+.menu a {
+  margin-top: 35px;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-decoration: none;
+  color: #79818d;
+  font: 15px Verdana;
+}
+
+.logo a {
+  float: left;
+  font: bold 37px Arial, sans-serif;
   color: #333333;
+  padding-top: 20px;
+  padding-left: 121px;
+  text-decoration: none;
 }
 
-.logo .AppText {
+.logo a .AppText {
   color: #65a9d9;
 }
 
 .header-ban {
   height: 842px;
   background: #68aee0;
-  width: 1500;
   margin: 0 auto;
+}
+
+.Title {
+  font: 52px Verdana,Arial;
+  text-transform: uppercase;
+  color: #f7f6f2;
+  padding-top: 230px;
+  margin-left: 160px;
+  width: 500px;
+  height: 100px;
+}
+
+.header-ban .first-discription {
+  font: 24px Verdana,sans-serif;
+  color: #f7f6f2;
+  margin-top: 50px;
+  margin-left: 160px;
+}
+
+.second-discription {
+  font: 16px Verdana,sans-serif;
+  color: #f7f6f2;
+  margin-top: 75px;
+  margin-left: 160px;
+}
+
+.second-discription span {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  width: 50px;
+  border-radius: 5px;
+  background: #ffce54;
+  margin-left: 3px;
+}
+
+.field {
+  margin-top: 40px;
+  margin-left: 160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 363px;
+  height: 56px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  float: left;
+}
+
+.field:focus {
+  outline: none;
+}
+
+.f-button {
+  margin-top: 40px;
+  margin-left: 36px;
+  width: 114px;
+  height: 56px;
+  background: #77c344;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font: 18px Arial,Verdana,sans-serif;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ban-cloud1 {
+  background: url("../image/cloud.png");
+  width: 49px;
+  height: 28px;
+  position: relative;
+  left: 120px;
+  top: 110px;
+  z-index: 1;
+}
+
+.ban-cloud2 {
+  background: url("../image/cloud.png");
+  transform: scale(0.8);
+  width: 49px;
+  height: 28px;
+  position: relative;
+  left: 153px;
+  top: 737px;
+  z-index: 1;
+}
+
+.ban-cloud3 {
+  background: url("../image/cloud.png");
+  transform: scale(0.9);
+  width: 49px;
+  height: 28px;
+  position: relative;
+  left: 1200px;
+  top: 229px;
+  z-index: 1;
+}
+
+.ban-cloud4 {
+  background: url("../image/cloud.png");
+  transform: scale(1);
+  width: 49px;
+  height: 28px;
+  position: relative;
+  left: 1210px;
+  top: 500px;
+  z-index: 1;
+}
+
+.ban-cloud5 {
+  background: url("../image/cloud.png");
+  transform: scale(1);
+  width: 49px;
+  height: 28px;
+  position: relative;
+  left: 180px;
+  top: 140px;
+  z-index: 1;
+}
+
+.imagescreen {
+  float: right;
+  margin-right: 80px;
+  margin-top: 40px;
+  border-radius: 10px;
+  z-index: 10;
+  position: relative;
+}
+
+.projects {
+  height: 160px;
+  background: #f8f8f8;
+}
+
+.projects .evernotePj {
+  background: url("../image/evernote.png") no-repeat;
+  width: 169px;
+  height: 43px;
+  margin-left: 140px;
+  margin-top: 59px;
+  float: left;
+}
+
+.projects .microsoftPj {
+  background: url("../image/microsoft.png") no-repeat;
+  width: 142px;
+  height: 31px;
+  margin-left: 80px;
+  margin-top: 62px;
+  float: left;
+}
+
+.projects .googlePj {
+  background: url("../image/google.png") no-repeat;
+  width: 131px;
+  height: 46px;
+  margin-left: 80px;
+  margin-top: 56px;
+  float: left;
+}
+
+.projects .sonyPj {
+  background: url("../image/sony.png") no-repeat;
+  width: 132px;
+  height: 23px;
+  margin-left: 80px;
+  margin-top: 65px;
+  float: left;
+}
+
+.projects .firefoxPj {
+  background: url("../image/firefox.png") no-repeat;
+  width: 112px;
+  height: 33px;
+  margin-left: 80px;
+  margin-top: 57px;
+  float: left;
+}
+
+.clear {
+  clear: both;
 }
